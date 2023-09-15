@@ -1,10 +1,10 @@
 import SideMenu from "./Components/SideMenu"
 import Navbar from "./Components/Navbar"
-
+import SignIn from "./Components/SignIn"
 function App() {
     return (
         <>
-            <div className="flex">
+            {/* <div className="flex">
                 <div className="flex-grow-0">
                     <SideMenu />
                 </div>
@@ -13,7 +13,8 @@ function App() {
                     <Navbar />
                     <section className="w-full h-auto"></section>
                 </div>
-            </div>
+            </div> */}
+                <SignIn/>
         </>
     )
 }
